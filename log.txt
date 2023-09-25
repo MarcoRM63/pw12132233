@@ -1,0 +1,17 @@
+commit 702380cf82ef2e1304ef29c2f3a02b8e50ee547e
+Author: CCDM24 <CCDM24@CCDM24.local>
+Date:   Fri Sep 8 12:25:26 2023 -0700
+
+    Etiqueta principal
+
+commit d74a3d70c13f509be3c49d35983079dd28f5be0b
+Author: CCDM24 <CCDM24@CCDM24.local>
+Date:   Thu Sep 7 12:42:45 2023 -0700
+
+    Titulo y encabezado
+
+commit 6e5c37a9450a076e2864b6fbaa86674d90d40275
+Author: CCDM24 <CCDM24@CCDM24.local>
+Date:   Thu Sep 7 12:35:40 2023 -0700
+
+    Commit inicial
