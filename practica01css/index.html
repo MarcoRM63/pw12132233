@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 01 HTML + CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <header>
         <img src="img/resplandor.png" alt="fondo">
-        <img src="img/logo.png" alt="logo empresa">
+        <img src="img/logo.png" alt="logo empresa" id="logo">
         <nav>
             <ul>
-                <l1>Inicio</l1>
-                <l1>Sección</l1>
-                <l1>Sección</l1>
-                <l1>Sección</l1>
-                <l1>Sección</l1>
-                <l1>Sección</l1>
+                <li>Inicio</li>
+                <li>Sección</li>
+                <li>Sección</li>
+                <li>Sección</li>
+                <li>Sección</li>
+                <li>Sección</li>
             </ul>
             <form action="#">
                 <input type="text" name="" placeholder="Buscar aquí...">
@@ -24,42 +27,45 @@
             </form>
         </nav>
     </header>
-    <section>
+    <section id="seccion01">
         <article>
             <img src="img/slide2.jpg" alt="">
         </article>
     </section>
-    <section>
+    <section id="seccion02">
         <article>
             <img src="img/separador.jpg" alt="separador">
-            Una sección
             <br>
-            
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, 
-            debitis at dignissimos nostrum repellendus quisquam reiciendis quam 
-            facere officiis cupiditate voluptate, consectetur dolores, voluptatem sequi optio amet! Aut, dolorem adipisci.
-
+            <span class="unaSeccion nito"> Una sección </span>
+            <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+            debitis at dignissimos nostrum repellendus quisquam reiciendis quam
+            facere officiis cupiditate voluptate, consectetur dolores, voluptatem sequi optio amet! Aut, dolorem
+            adipisci.
             <p></p>
             <input type="submit" value="Ver más">
 
         </article>
         <article>
-                    <img src="img/separador.jpg" alt="separador">
-                    Otra sección
-                    <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis vitae itaque esse obcaecati non est deleniti, aspernatur culpa nostrum asperiores consequuntur, ad nesciunt dolorum modi? 
-                    Quibusdam perspiciatis culpa ea dicta!
-                    <p></p>
-                    <input type="submit" value="Ver más">
+            <img src="img/separador.jpg" alt="separador">
+            <br>
+            <span class="otraSeccion nito"> Otra sección </span>
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis vitae itaque esse obcaecati non est deleniti, aspernatur culpa nostrum asperiores consequuntur,
+            ad nesciunt dolorum modi?
+            Quibusdam perspiciatis culpa ea dicta!
+            <p></p>
+            <input type="submit" value="Ver más">
         </article>
         <article>
             <img src="img/separador.jpg" alt="separador">
             <br>
-            Un vídeo
+            <span class="otraSeccion nito"> Un vídeo </span>
             <br>
             <img src="img/video.jpg" alt="video">
         </article>
     </section>
 </body>
+
 </html>
